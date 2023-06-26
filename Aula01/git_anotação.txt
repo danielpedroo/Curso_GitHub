@@ -1,0 +1,28 @@
+O que e controle de versão 
+
+	--> Uma tecnica que ajuda a GERENCIAR O CODIGO-FONTE de uma aplicação
+	--> Registrando TODAS AS MODIFICAÇÕES de codigos, podendo reverter as mesmas;
+	--> Criar versões de um software em diferentes estagios, podendo ALTERAR FACILMENTE ENTRE ELAS;
+	--> Cada membro da equipe pode trabalahr em uma versão diferente
+	--> Ha ferramentas para trabalhar o controle de versão como:  GIT e SVN
+
+
+O que é GIT
+
+	--> O Sitema de controle de versão MAIS UTILIZADO DO MUNDO atualmente;
+	--> O git é baseado em REPOSITORIOS, que contêm todas a as versões do código e tambem as copias de cada desenvolvedor
+	--> Todas as operações do git SÃO OTIMIZADAS PARA TER ALTO DESEMPENHO ;
+	--> Todos os objetos do git são PROTEGIDOS COMO CRIPTOGRAFIA para evitar alterações indevidas e maliciosas;
+	--> O git é um PROJETO DE CODIGO ABERTO
+
+
+Codigos do GIT
+
+	--> git init: cria um repositorio
+ 	--> git status: ve o status do git, as pastas os arquivos ali presentes
+	--> git add: adiciona arquivos ao git 
+	
+	 
+
+
+	

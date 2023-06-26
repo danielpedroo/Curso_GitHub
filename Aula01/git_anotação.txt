@@ -22,6 +22,8 @@ Codigos do GIT
  	--> git status: ve o status do git, as pastas os arquivos ali presentes
 	--> git add: adiciona arquivos ao git 
 	
+			teste de atualização
+	
 	 
 
 

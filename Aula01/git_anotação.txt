@@ -35,12 +35,14 @@ Codigos do GIT
 	--> git push -u origin main e/ou git push: aqui voce sobe os dados comitado para o servidor 
 	--> git pull: busca os arquivos la do repositorio sendo isto nao precisa estar em uma maquina local
 	--> git clone: clona o repositorio no servidor remoto
-
+	--> git rm _____: remove o arquivo no repositorio, na area sublinhada e para ser colocado o nome do arquivo e sua extensão
 
 	
 	 U: Untraked (O arquivo ou pasta necessita de um Add)
 	 A: Add (Adicionado)
 	 M: Modified (modificado)
+	 D: Deleted (Deletado)
+	 
 
 
 	

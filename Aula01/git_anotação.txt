@@ -24,25 +24,65 @@ Codigos do GIT
 	--> git add . : adiciona Todos os arquivos de uma vez só
 	--> git remote -v: ve a origem aonde voce esta conectado, " origin  https://github.com/Drakkio/Curso_GitHub.git (push) "
 	--> git remote rm ______: remove a origem que voce esta conectado, e so colocar o nome da origem na parte sublinhada
+
 	==========================================================
+
 	--> git commit -m "Update": Voce commita e envia uma mensagem de atualização
 	--> Exemplo: git commit arquivo.txt -m "Texto Alterado"
+
 	==========================================================
+
 	--> git commit -a "Update": Voce comenda diversos arquivos de uma vez só
 	--> Exemplo: git commit -a -m "Texto Alterado" --> A letra -a significa todos os arquivos
+
 	==========================================================
+
 	--> git branch -M _____: aqui voce seleciona o caminho da branch, seja main, master ou outro nome escolhuido
 	--> git push -u origin main e/ou git push: aqui voce sobe os dados comitado para o servidor 
 	--> git pull: busca os arquivos la do repositorio sendo isto nao precisa estar em uma maquina local
 	--> git clone: clona o repositorio no servidor remoto
 	--> git rm _____: remove o arquivo no repositorio, na area sublinhada e para ser colocado o nome do arquivo e sua extensão
+	--> git log: mostra as modificações que foram feitas no projeto e/ou commits
 
-	
+	==========================================================
+	--> git mv: podemos renomear um arquivo e por der movido para outra pasta 	
+	Exemplo: git mv ______ (<-- nome do arquivo e sua extensão) _______ (<-- Pasta para onde sera movido)
+	git mv rodape.css css/rodape.css.
+
+	Para renomear e necessario colocar o nome antigo e depois o nome novo
+	Exemplo: git mv css/rodape.css css/rodape_inicial.css 
+	==========================================================
+
+	git checkout: funciona como um ctrl-z, o arquivo volta ao estado anterior	
+	isto significa que ele tira as notificação de "modificado" 
+
+	Comando: git checkout css (<--nome da pasta) / style.css (<--nome do arquivo e sua extensão)
+	git checkout css/style.css
+
+	==========================================================
+
+	gitignore: ignora arquivos de um projeto
+	mas para isso deve ser criado um arquivo .gitignore na pasta onde deseja ignorar
+	e dentro deste arquivo colocar os nomes dos arquivos a serem ignorados
+	 ANTES de criar os arquivos.
+
+	 Exemplo:
+
+	 	.gitignore
+			l.txt
+			z.css
+			pata_ignorada <-- neste caso deve ser colocado o nome da pasta e um simbolo /*
+
+			( Exemplo: pasta_ignorada/* <-- assim seus atributos e/ou arquivos seram ignorados )
+				estes arquivos seram automaticamente ignorados
+
+	==========================================================
+
 	 U: Untraked (O arquivo ou pasta necessita de um Add)
 	 A: Add (Adicionado)
 	 M: Modified (modificado)
 	 D: Deleted (Deletado)
-	 
+	  
 
 
 	

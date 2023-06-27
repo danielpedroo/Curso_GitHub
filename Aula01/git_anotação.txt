@@ -34,6 +34,7 @@ Codigos do GIT
 	--> git branch -M _____: aqui voce seleciona o caminho da branch, seja main, master ou outro nome escolhuido
 	--> git push -u origin main e/ou git push: aqui voce sobe os dados comitado para o servidor 
 	--> git pull: busca os arquivos la do repositorio sendo isto nao precisa estar em uma maquina local
+
 	
 	
 	 U: Untraked (O arquivo ou pasta necessita de um Add)

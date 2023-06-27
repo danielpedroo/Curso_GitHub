@@ -24,8 +24,11 @@ Codigos do GIT
 	--> git add . : adiciona Todos os arquivos de uma vez só
 	--> git remote -v: ve a origem aonde voce esta conectado, " origin  https://github.com/Drakkio/Curso_GitHub.git (push) "
 	--> git remote rm ______: remove a origem que voce esta conectado, e so colocar o nome da origem na parte sublinhada
+	==========================================================
 	--> git commit -m "Update": Voce commita e envia uma mensagem de atualização
-	--> git commit -a "Update": Voce comenda diversos arquivos de uma vez só, Exemplo: git commit arquivo.txt -a "Texto Alterado"
+	--> Exemplo: git commit arquivo.txt -m "Texto Alterado"
+	==========================================================
+	--> git commit -a "Update": Voce comenda diversos arquivos de uma vez só
 	--> git branch -M _____: aqui voce seleciona o caminho da branch, seja main, master ou outro nome escolhuido
 	--> git push -u origin main: aqui voce sobe os dados comitado para o servidor
 	

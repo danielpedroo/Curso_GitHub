@@ -29,6 +29,8 @@ Codigos do GIT
 	--> Exemplo: git commit arquivo.txt -m "Texto Alterado"
 	==========================================================
 	--> git commit -a "Update": Voce comenda diversos arquivos de uma vez só
+	--> Exemplo: git commit -a -m "Texto Alterado" --> A letra -a significa todos os arquivos
+	==========================================================
 	--> git branch -M _____: aqui voce seleciona o caminho da branch, seja main, master ou outro nome escolhuido
 	--> git push -u origin main: aqui voce sobe os dados comitado para o servidor
 	

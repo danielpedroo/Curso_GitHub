@@ -78,6 +78,14 @@ Codigos do GIT
 
 	==========================================================
 
+	--> git reset: reseta mudanças feitas só que
+	' TODAS AS ALTERAÇÕES COMMITADAS E TAMBEM AS PENDENTES SERAO EXCLUIDAS '
+	
+		Exemplo: git reset --hard origin/master
+			git reset --hard (<-- Tag) origin/master (<-- branch)
+
+	==========================================================
+
 	 U: Untraked (O arquivo ou pasta necessita de um Add)
 	 A: Add (Adicionado)
 	 M: Modified (modificado)

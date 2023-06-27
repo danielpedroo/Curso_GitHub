@@ -27,7 +27,7 @@ Codigos do GIT
 	--> git branch -M _____: aqui voce seleciona o caminho da branch, seja main, master ou outro nome escolhuido
 	--> git push -u origin main: aqui voce sobe os dados comitado para o servidor
 	
-	 U : Untretded (O arquivo ou pasta necessita de um Add)
+	 U: Untretded (O arquivo ou pasta necessita de um Add)
 	 A: Add (Adicionado)
 	 M: Modified (modificado)
 

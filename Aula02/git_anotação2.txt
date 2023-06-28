@@ -69,7 +69,7 @@ Git Branches
         git show _____ (nome da tag) : com este comando voce verifica a tag
         git checkout _____ (nome da tag) : com este comando voce troca a tag
 
-        
+        teste de tag ok
 
     
 

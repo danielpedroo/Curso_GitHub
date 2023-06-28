@@ -62,6 +62,15 @@ Git Branches
     --> criando Tags
 
         git tag -a ___ (nome da tag) - m "mesagem a atribuir"
+            Este comando serve como um checkpoint de um branch
+
+    --> Verificando e alterando Tags    
+
+        git show _____ (nome da tag) : com este comando voce verifica a tag
+        git checkout _____ (nome da tag) : com este comando voce troca a tag
+
+        
+
     
 
         

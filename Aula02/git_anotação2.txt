@@ -22,6 +22,23 @@ Git Branches
             commitadas juntos, TOME CUIDADO
             "SEMPRE COMMITAR ANTES"
 
+    Regras 
+
+        --> enquanto estiver em uma branch não sai dela te você dar um commit 
+        --> faça branchs a partir da branch master/main 
+        --> atualize o seu repositorio atravez do git pull
+
+    --> Unindo branch
+
+        git merge _____ (nome do branch): A partir desta branch selecionada voce manda todos os dados alterados
+        para o branch atual que esta, sendo isto, este comando faz o commit automaticamente, sendo isto
+        fascilita na hora de outros Devs fazerem um clone ou um push dos dados.
+
+        Só que e necessario, depois do comando merge fazer um git push para atualizar o respositorio
+        Exemplo: git merge Cap_teste 
+
+        
+
             
 
 

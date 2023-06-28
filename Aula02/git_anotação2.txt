@@ -37,6 +37,24 @@ Git Branches
         Só que e necessario, depois do comando merge fazer um git push para atualizar o respositorio
         Exemplo: git merge Cap_teste 
 
+    --> Stash
+
+        git stash: Salva as modificações atuais para prosseguir 
+        com uma outra abordagem de solução e nao perder o código
+
+        Obs: o git stash funciona como se voce coloca-se ou salva-se algo
+            na lixeira sendo isto, ele so da um SAVE do que voce fez ate aquele ponto X
+            e reseta ate o ponto que voce tinha começado a fazer por Exemplo    
+                ele estava em Z salava e volta para d
+
+                Obs: ele so volta em arquivos que estao na area de transferencia e/ou 
+                    local.
+
+        git stash: list
+
+        
+
+        
         
 
             

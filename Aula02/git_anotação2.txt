@@ -1,0 +1,24 @@
+Git Branches
+
+    --> O que são Branchs
+        Branch é a forma do git SEPARAR AS VERSÕES DOS PROJETOS
+
+
+    --> Criar Branch
+
+        git branch: Aqui voce visualiza a branch na qual voce esta
+        git branch ____ (nome do branch)<-- aqui voce cria a branch e so colocar o nome na parte sublinhada 
+
+    --> Deletar Branches
+
+        git branch d e/ou --delete _____ (nome do branch) -: aqui voce deleta a branch criada
+        Exemple: git branch Cap_Branchs -d <-- tambem serve deste modo
+
+    --> Mudando de branch
+
+        git checkout -b nome: Aqui voce troca de branch 
+        OBS: Alterando o branch podemos levar alterações que não forma 
+            commitadas juntos, TOME CUIDADO
+
+
+

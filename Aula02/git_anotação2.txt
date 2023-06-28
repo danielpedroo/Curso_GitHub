@@ -44,13 +44,31 @@ Git Branches
 
         Obs: o git stash funciona como se voce coloca-se ou salva-se algo
             na lixeira sendo isto, ele so da um SAVE do que voce fez ate aquele ponto X
-            e reseta ate o ponto que voce tinha começado a fazer por Exemplo    
-                ele estava em Z salava e volta para d
+            e reseta ate o ponto que voce tinha começado a fazer por 
+            Exemplo: ele estava em Z salava e volta para d
 
-                Obs: ele so volta em arquivos que estao na area de transferencia e/ou 
-                    local.
+           Obs: ele so volta em arquivos que estao na area de 
+          transferencia e/ou local em (apenas arquivos em M - Modificed).
 
-        git stash: list
+        --> git stash: list: Exibe a lista de stash 
+            git stash apply ___ (id da stash): recupera o a stash
+                Exemplo: git stash apply 1
+
+    --> Removendo Stash
+
+        git stash clear: limpa todas as stash de uma branch 
+        git stash drop ____ (id da stash): limpa a stash de selecionada 
+
+    --> criando Tags
+
+        git tag -a ___ (nome da tag) - m "mesagem a atribuir"
+    
+
+        
+
+            
+
+
 
         
 

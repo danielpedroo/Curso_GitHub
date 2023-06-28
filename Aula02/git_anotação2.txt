@@ -22,7 +22,7 @@ Git Branches
             commitadas juntos, TOME CUIDADO
             "SEMPRE COMMITAR ANTES"
 
-            teste do branch 
+            
 
 
 

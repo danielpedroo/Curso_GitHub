@@ -26,7 +26,7 @@ Git Branches
 
         --> enquanto estiver em uma branch não sai dela te você dar um commit 
         --> faça branchs a partir da branch master/main 
-        --> atualize o seu repositorio atravez do git pull
+        --> atualize o seu repositorio atravez do git push
 
     --> Unindo branch
 

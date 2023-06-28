@@ -16,9 +16,13 @@ Git Branches
 
     --> Mudando de branch
 
-        git checkout -b nome: Aqui voce troca de branch 
+        git checkout -b nome: Aqui voce troca de branch, so que voce cria e troca automaticamente e leva os alterações
+        git checkout ____ (nome do branch) : Aqui voce troca de branch
         OBS: Alterando o branch podemos levar alterações que não forma 
             commitadas juntos, TOME CUIDADO
+            "SEMPRE COMMITAR ANTES"
+
+            teste do branch 
 
 
 

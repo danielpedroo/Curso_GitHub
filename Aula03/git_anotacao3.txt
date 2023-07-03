@@ -6,3 +6,4 @@
 
             git fetch -a: este comando pucha todos os branchs que estao no servidor remotos
 
+            git push origin -d _____ (nome da branch) <-- Este comando deleta a branch criada remotamente 

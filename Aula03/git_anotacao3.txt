@@ -1,4 +1,8 @@
     --> Compartilhamento e atualização de repositorios
 
         --> Encontrando branchs
+            git fetch: você é atualizado de todos os branchs e tags que ainda não
+                estão reconhecidos por voce e/ou identificar branches remotos 
+
+            git fetch -a: este comando pucha todos os branchs que estao no servidor remotos
 

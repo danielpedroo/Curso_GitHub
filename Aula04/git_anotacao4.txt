@@ -12,7 +12,7 @@
 
         ---Log resumido
 
-            git shortlog <-- nos da uma panorama geral e sumido do projeto
+            git shortlog <-- nos da uma panorama geral e resumido do projeto
                 
 
 

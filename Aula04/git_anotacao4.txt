@@ -1,0 +1,18 @@
+        Analise e inspeção de repositorios
+
+    Exibindo informações 
+
+        --> git show <--- nos da diversas informações uteis como, branchs e commits
+                |--> pode exibir informações sobre tags tambem
+                                                            |--> git show ____ (nome da tag)
+
+        git diff <-- exibe diferenças de um branch
+                            |--> pode tambem verificar a diferença entre arquivos de branch
+                                                                |--> git diff _____ _____ (nome dos 2 arquivos)
+
+            
+
+
+        
+
+    

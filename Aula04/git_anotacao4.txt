@@ -8,9 +8,15 @@
 
         git diff <-- exibe diferenças de um branch
                             |--> pode tambem verificar a diferença entre arquivos de branch
-                                                                |--> git diff _____ _____ (nome dos 2 arquivos)
+                                                                |--> git diff HEAD: _____ _____ (nome dos 2 arquivos)
 
-            
+        ---Log resumido
+
+            git shortlog <-- nos da uma panorama geral e sumido do projeto
+                
+
+
+
 
 
         

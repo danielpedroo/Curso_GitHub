@@ -31,6 +31,6 @@
 
                 Para atualizar os submodules temos que primeiro commitar as mudanças
 
-                    git push --recurse-submodule=on-demand <-- envia os dados do submodulo ao repo
+                    git push --recurse-submodule=on-demand <--kab envia os dados do submodulo ao repo
                         Este fluxo fara a atualização apenas do submodulo
                         

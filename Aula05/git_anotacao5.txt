@@ -1,0 +1,46 @@
+            Administração de repositorios
+
+        -->Limpando arquivos untrackeds
+
+                --> git clean  --> verifica e limpa arquivos nao estao sendo tranckeados
+                        |--> mas isto se voce nao os adicionou  utilizando o git add
+                    
+                OBS.: este comando e mais usado para arquivos que sao gerados automaticamente
+                                       caso o arquivo se negar a deleletar utilize este comando    
+                                                      |--> git clean -f <-- o -f e como se fosse uma autorização forçada
+
+                --Otimizando repositorios
+
+                    -->git gc é uma abreviação para garbage collector
+                             |--> ele identifica arquivos que NAO SAO MAIS NECESSARIOS E OS EXCLUI
+                    OBS: este comando melhora a performance do repositorio
+
+                --Verificando a integridade de arquivos
+
+                    git fsck --> é uma abreviação para FILE SYSTEM CHECK
+                        |--> isto verifica a integridade de arquivose sua conectividade
+                                |--> assim diminui as currupções em arquivos
+                                        |--> Seria um comando de rotina, assim vemos como esta os arquivos
+
+                --Reflog
+
+                    --> git reflog <-- Mapeia todos os seus passos no repositorio, taé
+                                            uma mudança de branch é inserida neste log.
+
+                    --em comparação com o git log, ele apenas armazena os commits de uma branch
+                        OBS.:os REFLOGS FICAM SALVOS ATE EXPIRAR, o tempo de expiração sao de 30 dias
+
+                -- Transformando o repo apra arquivo
+
+                        --o comando git archive podemos compactar um repo em um arquivo zip e/ou compactado
+
+                    git archive --format zip --output master_files.zip master <-- este e o comando para zipar o repo
+
+                 
+
+
+
+
+                    
+
+

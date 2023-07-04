@@ -7,3 +7,30 @@
             git fetch -a: este comando pucha todos os branchs que estao no servidor remotos
 
             git push origin -d _____ (nome da branch) <-- Este comando deleta a branch criada remotamente 
+
+            git branch -D  ______ (nome da branch) <-- Este comando deleta a branch definitivamente
+
+        --> git pull 
+
+                git pull <-- serve para receber atualizações do repositorio remoto
+
+        --> git push 
+
+                git push <-- faz o inverso do pull, ele envia as alterações para o repo remoto
+                
+        --> Trabalhando com submodulos
+
+            submodulo é a maneira que temos de possuir DOIS OU MAIS PROJETOS EM UM SO repositorio   
+
+             git submodule add ____ (link do repositorio) <-- Este comando adiciona um submodulo 
+                    git submodule <-- verifica o submodulo
+
+                Submodulo e uma forma mais simples de trabalhar com diversos arquivos simultaneamente 
+                 git submodule add ____ (link do respositorio) _____ (nome do diretorio) <-- este comando 
+                cria um submodulo ja dentro de uma pasta sendo isto de total forma idenpendete.
+
+                Para atualizar os submodules temos que primeiro commitar as mudanças
+
+                    git push --recurse-submodule=on-demand <-- envia os dados do submodulo ao repo
+                        Este fluxo fara a atualização apenas do submodulo
+                        

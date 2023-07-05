@@ -44,6 +44,6 @@
             --> Explicar o POR QUE E COMO do commit, e nao como o codigo foi escrito
 
             --para obter mais espaço na hora do texto do commit apenas exclua a aspa " de fechamento
-                |--> git commit -a -m "Por QUE E COMO do commit 
+                |--> git commit -a -m "Por QUE E COMO do commit.
 
                         

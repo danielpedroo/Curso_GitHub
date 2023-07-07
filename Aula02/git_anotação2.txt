@@ -1,94 +1,68 @@
-Git Branches
+O que são Branches?
 
-    --> O que são Branchs
-        Branch é a forma do git SEPARAR AS VERSÕES DOS PROJETOS
+--> Branches são a forma do Git separar as versões dos projetos.
 
+Criar Branch:
 
-    --> Criar Branch
+git branch: Aqui você visualiza a branch na qual você está.
+git branch ____ (nome do branch): Aqui você cria a branch, basta colocar o nome na parte sublinhada.
+Deletar Branches:
 
-        git branch: Aqui voce visualiza a branch na qual voce esta
-        git branch ____ (nome do branch)<-- aqui voce cria a branch e so colocar o nome na parte sublinhada 
+git branch -D/--delete _____ (nome do branch): Aqui você deleta a branch criada.
+Exemplo: git branch Cap_Branchs -d (também serve desta forma).
+Mudando de branch:
 
-    --> Deletar Branches
+git checkout -b nome: Aqui você troca de branch, criando e mudando automaticamente, levando as alterações junto.
+git checkout ____ (nome do branch): Aqui você troca de branch.
+OBS: Ao alterar a branch, você pode levar alterações não commitadas junto, TENHA CUIDADO.
+"SEMPRE COMMITAR ANTES".
 
-        git branch d e/ou --delete _____ (nome do branch) -: aqui voce deleta a branch criada
-        Exemple: git branch Cap_Branchs -d <-- tambem serve deste modo
+Regras:
 
-    --> Mudando de branch
+Enquanto estiver em uma branch, não saia dela até dar um commit.
+Faça branches a partir da branch master/main.
+Atualize o seu repositório através do git push.
 
-        git checkout -b nome: Aqui voce troca de branch, so que voce cria e troca automaticamente e leva os alterações
-        git checkout ____ (nome do branch) : Aqui voce troca de branch
-        OBS: Alterando o branch podemos levar alterações que não forma 
-            commitadas juntos, TOME CUIDADO
-            "SEMPRE COMMITAR ANTES"
+========================
 
-    Regras 
+Unindo branches:
 
-        --> enquanto estiver em uma branch não sai dela te você dar um commit 
-        --> faça branchs a partir da branch master/main 
-        --> atualize o seu repositorio atravez do git push
+git merge _____ (nome do branch): A partir desta branch selecionada, você envia todos os dados alterados para o branch atual.
+Este comando faz o commit automaticamente, facilitando quando outros desenvolvedores fazem clone ou push dos dados.
+No entanto, após o comando merge, é necessário fazer um git push para atualizar o repositório.
+Exemplo: git merge Cap_teste.
 
-    --> Unindo branch
+========================
 
-        git merge _____ (nome do branch): A partir desta branch selecionada voce manda todos os dados alterados
-        para o branch atual que esta, sendo isto, este comando faz o commit automaticamente, sendo isto
-        fascilita na hora de outros Devs fazerem um clone ou um push dos dados.
+Stash:
 
-        Só que e necessario, depois do comando merge fazer um git push para atualizar o respositorio
-        Exemplo: git merge Cap_teste 
+git stash: Salva as modificações atuais para prosseguir com outra abordagem de solução e não perder o código.
+OBS: O git stash funciona como se você colocasse algo na lixeira, ele apenas SALVA o que você fez até aquele ponto X
+e reseta até o ponto em que você começou.
+Por exemplo: se ele estava em Z, salva e volta para D.
+OBS: Ele só volta em arquivos que estão na área de transferência e/ou local (apenas arquivos em M - Modified).
 
-    --> Stash
+git stash list: Exibe a lista de stash.
 
-        git stash: Salva as modificações atuais para prosseguir 
-        com uma outra abordagem de solução e nao perder o código
+git stash apply ___ (id da stash): Recupera a stash.
+Exemplo: git stash apply 1.
 
-        Obs: o git stash funciona como se voce coloca-se ou salva-se algo
-            na lixeira sendo isto, ele so da um SAVE do que voce fez ate aquele ponto X
-            e reseta ate o ponto que voce tinha começado a fazer por 
-            Exemplo: ele estava em Z salava e volta para d
+Removendo Stash:
 
-           Obs: ele so volta em arquivos que estao na area de 
-          transferencia e/ou local em (apenas arquivos em M - Modificed).
+git stash clear: Limpa todas as stash de uma branch.
+git stash drop ____ (id da stash): Limpa a stash selecionada.
+========================
 
-        --> git stash: list: Exibe a lista de stash 
-            git stash apply ___ (id da stash): recupera o a stash
-                Exemplo: git stash apply 1
+Criando Tags:
 
-    --> Removendo Stash
+git tag -a ___ (nome da tag) -m "mensagem a atribuir": Este comando serve como um checkpoint de um branch.
+Verificando e alterando Tags:
 
-        git stash clear: limpa todas as stash de uma branch 
-        git stash drop ____ (id da stash): limpa a stash de selecionada 
+git show _____ (nome da tag): Com este comando, você verifica a tag.
+git checkout _____ (nome da tag): Com este comando, você troca para a tag.
+Enviando Tags ao repositório Git:
 
-    --> criando Tags
+git push origin _____ (nome da tag): Envia a tag selecionada.
+git push origin --tags: Envia todas as tags ao repositório Git.
 
-        git tag -a ___ (nome da tag) - m "mesagem a atribuir"
-            Este comando serve como um checkpoint de um branch
-
-    --> Verificando e alterando Tags    
-
-        git show _____ (nome da tag) : com este comando voce verifica a tag
-        git checkout _____ (nome da tag) : com este comando voce troca a tag
-
-    --> Enviando Tags ao respositorio git
-
-            git push origin _____ (nome da tag): envia a tag selecionada
-            git push origin --tags: envia todas as tags ao respositorio git
-
-            
-    
-
-        
-
-            
-
-
-
-        
-
-        
-        
-
-            
-
-
-
+========================

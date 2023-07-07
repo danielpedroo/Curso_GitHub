@@ -1,36 +1,28 @@
-    --> Compartilhamento e atualização de repositorios
+   Compartilhamento e atualização de repositórios:
 
-        --> Encontrando branchs
-            git fetch: você é atualizado de todos os branchs e tags que ainda não
-                estão reconhecidos por voce e/ou identificar branches remotos 
+Encontrando Branches:
 
-            git fetch -a: este comando pucha todos os branchs que estao no servidor remotos
+git fetch: você recebe todas as atualizações dos branches e tags que ainda não são reconhecidos por você e/ou identifica branches remotos.
+git fetch -a: este comando traz todos os branches que estão no servidor remoto.
+git push origin -d _____ (nome do branch): Este comando deleta o branch criado remotamente.
+git branch -D ______ (nome do branch): Este comando deleta o branch definitivamente.
+git pull: serve para receber atualizações do repositório remoto.
+git push: faz o inverso do pull, enviando as alterações para o repositório remoto.
 
-            git push origin -d _____ (nome da branch) <-- Este comando deleta a branch criada remotamente 
+============================
 
-            git branch -D  ______ (nome da branch) <-- Este comando deleta a branch definitivamente
+Trabalhando com submódulos:
 
-        --> git pull 
+Um submódulo é a maneira de possuir DOIS OU MAIS PROJETOS EM UM ÚNICO repositório.
 
-                git pull <-- serve para receber atualizações do repositorio remoto
+git submodule add ____ (link do repositório): Este comando adiciona um submódulo.
+git submodule: verifica o submódulo.
+Um submódulo é uma forma mais simples de trabalhar com vários arquivos simultaneamente.
 
-        --> git push 
+git submodule add ____ (link do repositório) _____ (nome do diretório): Este comando cria um submódulo dentro de uma pasta, de forma totalmente independente.
+Para atualizar os submódulos, primeiro é necessário commitar as mudanças.
 
-                git push <-- faz o inverso do pull, ele envia as alterações para o repo remoto
-                
-        --> Trabalhando com submodulos
+git push --recurse-submodules=on-demand: envia os dados do submódulo para o repositório.
+Este fluxo fará a atualização apenas do submódulo.
 
-            submodulo é a maneira que temos de possuir DOIS OU MAIS PROJETOS EM UM SO repositorio   
-
-             git submodule add ____ (link do repositorio) <-- Este comando adiciona um submodulo 
-                    git submodule <-- verifica o submodulo
-
-                Submodulo e uma forma mais simples de trabalhar com diversos arquivos simultaneamente 
-                 git submodule add ____ (link do respositorio) _____ (nome do diretorio) <-- este comando 
-                cria um submodulo ja dentro de uma pasta sendo isto de total forma idenpendete.
-
-                Para atualizar os submodules temos que primeiro commitar as mudanças
-
-                    git push --recurse-submodule=on-demand <--kab envia os dados do submodulo ao repo
-                        Este fluxo fara a atualização apenas do submodulo
-                        
+============================

@@ -1,46 +1,40 @@
-            Administração de repositorios
+Administração de repositórios:
 
-        -->Limpando arquivos untrackeds
+Limpando arquivos untracked:
 
-                --> git clean  --> verifica e limpa arquivos nao estao sendo tranckeados
-                        |--> mas isto se voce nao os adicionou  utilizando o git add
-                    
-                OBS.: este comando e mais usado para arquivos que sao gerados automaticamente
-                                       caso o arquivo se negar a deleletar utilize este comando    
-                                                      |--> git clean -f <-- o -f e como se fosse uma autorização forçada
+git clean: verifica e limpa arquivos que não estão sendo trackeados.
+Mas isso é válido apenas se você não os adicionou usando git add.
 
-                --Otimizando repositorios
+OBS: Este comando é mais usado para arquivos gerados automaticamente.
+Caso o arquivo se recuse a ser deletado, utilize este comando: git clean -f: o -f é uma autorização forçada.
 
-                    -->git gc é uma abreviação para garbage collector
-                             |--> ele identifica arquivos que NAO SAO MAIS NECESSARIOS E OS EXCLUI
-                    OBS: este comando melhora a performance do repositorio
+========================
 
-                --Verificando a integridade de arquivos
+Otimizando repositórios:
 
-                    git fsck --> é uma abreviação para FILE SYSTEM CHECK
-                        |--> isto verifica a integridade de arquivose sua conectividade
-                                |--> assim diminui as currupções em arquivos
-                                        |--> Seria um comando de rotina, assim vemos como esta os arquivos
+git gc: é uma abreviação para garbage collector.
+Ele identifica arquivos que não são mais necessários e os exclui.
 
-                --Reflog
+OBS: Este comando melhora o desempenho do repositório.
+Verificando a integridade de arquivos: git fsck: é uma abreviação para file system check.
 
-                    --> git reflog <-- Mapeia todos os seus passos no repositorio, taé
-                                            uma mudança de branch é inserida neste log.
+Isso verifica a integridade e conectividade dos arquivos.
+Assim, diminui as corrupções em arquivos. É um comando de rotina para verificar o estado dos arquivos.
 
-                    --em comparação com o git log, ele apenas armazena os commits de uma branch
-                        OBS.:os REFLOGS FICAM SALVOS ATE EXPIRAR, o tempo de expiração sao de 30 dias
+========================
 
-                -- Transformando o repo apra arquivo
+Reflog:
 
-                        --o comando git archive podemos compactar um repo em um arquivo zip e/ou compactado
+git reflog: mapeia todos os seus passos no repositório, incluindo mudanças de branch.
+Em comparação com git log, ele apenas armazena os commits de uma branch.
 
-                    git archive --format zip --output master_files.zip master <-- este e o comando para zipar o repo
+OBS: Os reflogs são salvos até expirarem. O tempo de expiração é de 30 dias.
 
-                 
+========================
 
+Transformando o repositório em arquivo:
 
+Com o comando git archive, podemos compactar um repositório em um arquivo zip ou outro formato compactado.
+git archive --format zip --output master_files.zip master: este é o comando para compactar o repositório em um arquivo zip.
 
-
-                    
-
-
+========================

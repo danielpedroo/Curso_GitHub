@@ -6,7 +6,7 @@ Curso de Git / Git Hub (gist &amp; Git Hub Pages)
       Neste curso eu tenho as principais anotações sobre os comandos do git e uma aula em especial sobre markedown, os comandos estão, autoexplicativos e de
       total forma bem estruturados.
       
-      ## ATENÇÃO
+      # ATENÇÃO
           -> Cada arquivo do curso contem os comandos, desde a aula 01 até a aula de markdown, 
           contudo, estarei deixando um arquivo em HTML auto explicando como funciona aquele 
           comando e dentre outros.

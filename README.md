@@ -7,11 +7,12 @@ Curso de Git / Git Hub (gist &amp; Git Hub Pages)
       total forma bem estruturados.
       
       ## ATENÇÃO
-          -> Cada arquivo do curso contem os comandos, desde a aula 01 até a aula de markdown, contudo, estarei deixando um arquivo em HTML
-          auto explicando como funciona aquele comando e dentre outros.
+          -> Cada arquivo do curso contem os comandos, desde a aula 01 até a aula de markdown, 
+          contudo, estarei deixando um arquivo em HTML auto explicando como funciona aquele 
+          comando e dentre outros.
 
         
-      
+
 
 
           
